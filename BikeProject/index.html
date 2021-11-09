@@ -4,43 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BikeProject.css">
     <title>Vicious Cycles</title>
 </head>
 <body>
 
     <!--the logo will be placed here and will need to work out the kinks-->
     <header>
-        <img src="Vicious-Cycle-Logo(1).png" alt="two orange horizontal stripes with grey lettering">
+        <img src="Vicious-Cycle-Logo(1).png" alt="two orange horizontal stripes with grey lettering" class="logo">
     </header>
 
-    <!--going to make this a horizontal navigation bar-->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a> </li>
-            <li><a href="aboutUs.html">About Us</a> </li>
-            <li><a href="products.html">Products</a> </li>
-            <li><a href="services.html">Services</a> </li>
-            <li><a href="specials.html">Specials</a> </li>
-            <li><a href="tradeShows.html">Trade Shows</a> </li>
-            <li><a href="contactUs.html">Contact Us</a> </li>
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="tradeShows.html">Trade Shows</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
         </ul>
     </nav>
 
     <main>
         <!--will have to crop image so that the image is more of a banner-->
-        <!--will need to add a clickable grid layout if possible-->
-        <img src="pexels-pavel-danilyuk-5807540.jpg" width="800px" height="auto" alt="three adults riding bikes in the street in a wooded area"></a>
+        
+            <img src="pexels-pavel-danilyuk-5807540.jpg" width="600px" height="auto" alt="three adults riding bikes in the street in a wooded area" class="mainPhoto"></a>
+        <div class="first">
+            <img src="roman-bozhko-OXXsAafHDeo-unsplash.jpg" width="300px" height="auto" alt="the inside of a bike shop" class="firstPhoto"></a>
+            <h1>A Local Shop For All Your Riding Needs</h1>
+                <p class="firsta">We don’t just customize bikes, but we also sell products we know you’ll dig! Riding is a lifestyle, and we want to help you live your life. Through out the years, we have been trusted to deliver exceptional quality at exceptionally great prices. From basic bikes to custom bikes, we are the store for you to check out. Come visit our show room and have on of our team members help pick out the bike that is right for you!</p>
+        </div>
 
-        <h1>A Local Shop For All Your Riding Needs</h1>
-        <p>We don’t just customize bikes. We also sell stuff we know you’ll dig. Riding is a lifestyle, and we want to help you live your life.</p>
-
+        <div class="second">
+            <img src="phong-nguyen-P-USXW2SYRo-unsplash.jpg" width="300px" height="auto" alt="a man repairing a bicycle" class="secondPhoto"></a>
+            <h1>Your Local Repair Specialists</h1>
+                <p class="seconda">All of our bike mechanics are certified and know how to diagnosis any problem that you might have so that we can have you back on the road! Most of our services only take a few hours to complete. During that time, you are more than welcome to browse our showroom or we will call you when your bike is ready. <strong>Appointments are strongly Recommended.</strong> </p>
+        </div>
 
     </main>
 
     <!--this section will have contact information, main logo, clickable twitter logo, and clickable facebook logo-->
-    <footer>
+    <footer class="contact">
 
         <h2>Contact Us</h2>
+            <a href="http://facebook.com" target="_blank"><img class="facebook" src="facebook1.png"></a>
+            <a href="http://twitter.com" target="_blank"><img class="twitter" src="twitter1.png"></a>
             <ul>
                 <li>123 Main St.</li>
                 <li>Youngsville, NC 27000</li>
