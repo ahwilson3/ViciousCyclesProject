@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BikeProject.css">
+    <title>Services</title>
+</head>
+<body>
+
+     <!--the logo will be placed here and will need to work out the kinks-->
+     <header>
+        <img src="Vicious-Cycle-Logo(1).png" alt="two orange horizontal stripes with grey lettering" class="logo">
+    </header>
+
+    <nav>
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!--Needs a title so people know which page they are on-->
+        <img src="tom-conway-0dtQVPebr0Q-unsplash.jpg" width="600px" height="auto" alt="work bench with tools to repair bikes" class="mainPhoto"></a>
+        <div class="first">
+            <img src="egor-myznik-GKLmVfcXl0o-unsplash.jpg" width="300px" height="auto" alt="the inside of a bike shop" class="firstPhoto"></a>
+            <h1>Top Repairs in the Triangle</h1>
+                <p class="firsta">Our technicians are the best in the business! We have every part available for most bikes so even if we can't repair it, we can replace it and instal the new part for you. Most repairs take about 1-3 business days to complete depending on repair request. Please feel free to reach out or fill out the form below and we can get you back on the road again!</p>
+        </div>
+
+        <div class="form1">
+            <form class="formback">
+                <h2>Appointment Request</h2>
+                <br>
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="phoneNum">Phone Number:</label><br>
+                <input type="text" id="phoneNum" name="phoneNum"><br>
+                <br>
+                <p>What Type of Service are you Looking to have done? (Check all that apply)</p>
+                <input type="checkbox" id="service1" name="service1" value="brokenPart">
+                <label for="service1"> Broken Part</label><br>
+                <input type="checkbox" id="service2" name="service2" value="upgradeComp">
+                <label for="service2"> Upgrade Components</label><br>
+                <input type="checkbox" id="service3" name="service3" value="gmaintance">
+                <label for="service3"> General Maintainance</label><br>
+                <br>
+                <p>What Type of Bike do you Own?</p>
+                <input type="radio" id="streetBike" name="bikeType" value="streetBike">
+                <label for="streetBike">Street Bike</label><br>
+                <input type="radio" id="dirtBike" name="bikeType" value="dirtBike">
+                <label for="dirtBike">Dirt Bike</label><br>
+                <input type="radio" id="customBike" name="bikeType" value="customBike">
+                <label for="customBike">Custom Bike</label><br>
+                <br>
+                <label for="info">How did you Hear About Us:</label>
+                <select name="info" id="info">
+                    <option value="facebook">Facebook</option>
+                    <option value="google">Google</option>
+                    <option value="website">Website</option>
+                    <option value="friendOrFamily">Friend or Family Member</option>
+                </select>
+                <br>
+                <br>
+                <input class="submit" type="submit" value="submit">
+            </form>
+            <div>
+                <!--I need to make this responsive as well-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12933.130296446188!2d-78.5445245!3d35.8665915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a39152deccd9be3!2sWake%20Technical%20Community%20College%20-%20Scott%20Northern%20Wake%20Campus!5e0!3m2!1sen!2sus!4v1637022743390!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer class="contact">
+
+        <h2>Contact Us</h2>
+            <a href="http://facebook.com" target="_blank"><img class="facebook" src="facebook1.png"></a>
+            <a href="http://twitter.com" target="_blank"><img class="twitter" src="twitter1.png"></a>
+            <ul>
+                <li>123 Main St.</li>
+                <li>Youngsville, NC 27000</li>
+                <li>Phone: (919) 123-4567 | Fax: (919) 123-9875</li>
+            </ul>
+
+    </footer>
+
+
+</body>
+</html>

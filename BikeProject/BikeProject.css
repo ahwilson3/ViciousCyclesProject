@@ -145,3 +145,29 @@ footer {
     list-style: none;
 }
  
+.form1 {
+    background-color: rgb(136, 156, 113);
+    padding: 30px;
+    margin-top: 10px;
+    height: 550px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.formback {
+    background-color: rgb(78, 78, 78);
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.submit {
+    height: 30px;
+    width: 50px;
+}
+
+iframe {
+    width:300px;
+    height:475px;
+}
